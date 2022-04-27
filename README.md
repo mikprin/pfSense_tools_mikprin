@@ -53,6 +53,6 @@ add_static_map_to_file(configuration_file, static_map_file, interface = "lan", o
 
 # Other material
 
-Bash script with the same functionality.
+Bash script with the similar functionality.
 
 https://carl.idv.hk/migrate-windows-dhcp-to-pfsense/
