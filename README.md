@@ -47,7 +47,7 @@ add_static_map_to_file(configuration_file, static_map_file, interface = "lan", o
 
 ## Running the script
 
-`add_static_map_to_file(configuration_file, staticmap_file, interface = "lan"  , static_template = "DEFAULT" , output_file = "out.xml")`
+`add_static_map_to_file(configuration_file, staticmap_file, interface = "lan", output_file = "out.xml")`
 
 
 
