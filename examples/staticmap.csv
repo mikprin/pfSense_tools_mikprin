@@ -1,0 +1,4 @@
+Name,MAC address,Static IPv4 Address,Enabled
+Linux_server,a8:a1:59:64:32:86,192.160.21.48,true
+raspberrypi7,dc:a6:32:79:53:be,192.160.21.35,true
+Reseption,48:d2:24:97:34:d2,192.160.21.27,true
