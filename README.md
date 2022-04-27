@@ -37,7 +37,7 @@ add_static_map_to_file(configuration_file, static_map_file, interface = "lan", o
 `configuration_file = "../bkup_configs/current_config.xml"` - Current pfsence configuration
 
 
-## Getting data set
+## Setting file path
 
 `staticmap_file = "../staticmap/staticmap.csv"` - Staticmap file is a list of static hosts you want to add.
 `output_file = "out.xml"` - Output configuration file. You can use `output_file = "SAME_AS_INPUT"` to owerwrite your configuration.
