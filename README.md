@@ -32,22 +32,20 @@ static_map_file = "examples/staticmap.csv"
 add_static_map_to_file(configuration_file, static_map_file, interface = "lan", output_file = "./output_config.xml")
 ```
 
-`staticmap_file = "../staticmap/staticmap.csv"` - Staticmap file is a list of static hosts you want to add.
-`output_file = "out.xml"` - Output configuration file. You can use `output_file = "SAME_AS_INPUT"` to owerwrite your configuration.
-`configuration_file = "../bkup_configs/current_config.xml"` - Current pfsence configuration
+
 
 
 ## Setting file path
 
-`staticmap_file = "../staticmap/staticmap.csv"` - Staticmap file is a list of static hosts you want to add.
-`output_file = "out.xml"` - Output configuration file. You can use `output_file = "SAME_AS_INPUT"` to owerwrite your configuration.
-`configuration_file = "../bkup_configs/current_config.xml"` - Current pfsence configuration
+`static_map_file = "examples/staticmap.csv"` - Staticmap file is a list of static hosts you want to add.
+`output_file = "output_config.xml"` - Output configuration file. You can use `output_file = "SAME_AS_INPUT"` to owerwrite your configuration.
+`configuration_file = "examples/example_pf_config.xml" ` - Current pfsence configuration
 
 `target_lan_interface = 'lan'` - target local network interface you want to use
 
 ## Running the script
 
-`add_static_map_to_file(configuration_file, staticmap_file, interface = "lan", output_file = "out.xml")`
+`add_static_map_to_file(configuration_file, static_map_file, interface = "lan", output_file = "./output_config.xml")`
 
 
 
