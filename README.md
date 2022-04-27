@@ -1,6 +1,9 @@
 # pfSense_static_dhcp_from_csv
 This python code allow you to add static DHCP to XML configuration from CSV file.
 
+# Installation
+
+
 # Usage
 
 ## Getting data set
@@ -9,9 +12,9 @@ This python code allow you to add static DHCP to XML configuration from CSV file
 `output_file = "out.xml"` - Output configuration file. You can use `output_file = "SAME_AS_INPUT"` to owerwrite your configuration.
 `configuration_file = "../bkup_configs/current_config.xml"` - Current pfsence configuration
 
-`target_lan_interface = 'lan'` - targer local network interface you want to use
+`target_lan_interface = 'lan'` - target local network interface you want to use
 
-## Running the script:
+## Running the script
 
 `add_static_map_to_file(configuration_file, staticmap_file, interface = "lan"  , static_template = "DEFAULT" , output_file = "out.xml")`
 
