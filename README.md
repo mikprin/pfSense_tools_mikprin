@@ -6,6 +6,8 @@ This python code allow you to add static DHCP to XML configuration from CSV file
 
 # Usage
 
+ [Usage guide in notebook](https://github.com/mikprin/pfSense_tools_mikprin/blob/master/guide.ipynb) 
+
 This python code allow you to add static DHCP to XML configuration from CSV file. And here I will show you how:
 
 ```
