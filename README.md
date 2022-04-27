@@ -14,7 +14,7 @@ This python code allow you to add static DHCP to XML configuration from CSV file
 ## Running the script:
 
 `add_static_map_to_file(configuration_file, staticmap_file, interface = "lan"  , static_template = "DEFAULT" , output_file = "out.xml")`
-=======
+
 
 
 # Other material
