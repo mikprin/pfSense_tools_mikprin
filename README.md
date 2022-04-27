@@ -3,6 +3,13 @@ This python code allow you to add static DHCP to XML configuration from CSV file
 
 # Installation
 
+1. Download whl  [release](https://github.com/mikprin/pfSense_tools_mikprin/releases).
+1. Install it with `pip3 install pfsence_tools_mikprin-0.0.1-py3-none-any.whl`
+
+# Build:
+1. Install setuptools for python. (`pip install setuptools`)
+1. Build with `python3 -m build`.
+1. Get output in `dist` directory.
 
 # Usage
 
